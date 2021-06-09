@@ -1,0 +1,17 @@
+.item {
+  flex: 0 0 15%;
+  transition: transform 500ms ease 300ms;
+  margin: 0 6px;
+  position: relative;
+  cursor: pointer;
+
+  img {
+    height: 25rem;
+    width: 100%;
+    min-width: 15rem;
+    vertical-align: top;
+  }
+  // background-color: #4949499e;
+  //   background-blend-mode: soft-light;
+  
+}

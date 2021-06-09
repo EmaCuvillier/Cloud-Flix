@@ -1,0 +1,45 @@
+.movieCard{
+    height: 60vh;
+    width: 40vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bannerMovies{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.itemContent{
+    height: 90vh;
+}
+
+.contentWraper{
+    width: 50vw;
+}
+
+.contentTitle{
+    width: 100%;
+    z-index: 3;
+}
+
+.contentDescription{
+    width: 60vw;
+    z-index: 3;
+}
+
+
+
+.serverDown{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

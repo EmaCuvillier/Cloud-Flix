@@ -1,0 +1,38 @@
+.slide-button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 55px;
+  background: rgba(0, 0, 0, 0.884);
+  border: 0;
+  height: 25rem;
+  outline: 0;
+  padding: 0;
+  margin:  2.2rem 0;
+  z-index: 4;
+  cursor: pointer;
+
+  span {
+    width: 25px;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &--next {
+    right: 0;
+
+    span {
+      transform: rotateZ(-90deg);
+    }
+  }
+
+  &--prev {
+    left: 0;
+
+    span {
+      transform: rotateZ(90deg);
+    }
+  }
+
+}
